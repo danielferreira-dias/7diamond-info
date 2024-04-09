@@ -4,11 +4,11 @@
             {
                 "Title": {
                     "EN": "SYMBOL PAYOUT",
-                    "RU": "ВЫПЛАТА СИМВОЛОВ",
+                    "RU": "ВЫПЛНТН СИМВОЛОВ",
                     "FR": "PAIEMENT DES SYMBOLES",
-                    "ZH": "符号支付",
+                    "ZH": "符坷支付",
                     "US": "SYMBOL PAYOUT",
-                    "PT": "PAGAMENTO DE SÍMBOLOS",
+                    "PT": "PAGAMENTO DE SÝMBOLOS",
                     "IT": "PAGAMENTO DEI SIMBOLI"
                 },
                 "Type": "Title",
@@ -249,7 +249,7 @@
             {
                 "Title": {
                     "EN": "LINE LAYOUT",
-                    "RU": "РАСПОЛОЖЕНИЕ ЛИНИИ",
+                    "RU": "РНСПОЛОЖЕНИЕ ЛИНИИ",
                     "FR": "DISPOSITION DES LIGNES",
                     "ZH": "线路布局",
                     "US": "LINE LAYOUT",
@@ -392,16 +392,16 @@
                                         "Qualsiasi malfunzionamento annullerà tutte le scommesse e i pagamenti."
                                     ],
                                     "RU": [
-                                        "Все выигрышные комбинации оплачиваются слева направо, за исключением FREE SPINS. В случае, если символ WILD создает несколько выигрышных комбинаций в пределах одной и той же выигрышной линии, будет начислена только наиболее выгодная победа для игрока. В случае комбинаций, состоящих исключительно из символов WILD, она будет оплачена как наивысший символ...",
-                                        "Любые сбои отменят все ставки и выплаты."
+                                        "Вѝе выигрышные комбинации оплачиваютѝѝ ѝлева направо, за иѝключением FREE SPINS. В ѝлучае, еѝли ѝимвол WILD ѝоздает неѝколько выигрышных комбинаций в пределах одной и той же выигрышной линии, будет начиѝлена только наиболее выгоднаѝ победа длѝ игрока. В ѝлучае комбинаций, ѝоѝтоѝщих иѝключительно из ѝимволов WILD, она будет оплачена как наивыѝший ѝимвол...",
+                                        "Любые ѝбои отменѝт вѝе ѝтавки и выплаты."
                                     ],
                                     "FR": [
                                         "Toutes les combinaisons gagnantes sont payées de gauche à droite, sauf FREE SPINS. Dans le cas où le symbole WILD crée plusieurs combinaisons gagnantes sur la même ligne de gain, seule la victoire la plus bénéfique pour le joueur est attribuée. En cas de combinaisons composées exclusivement de symboles WILD, elle sera payée comme le symbole le plus élevé...",
                                         "Tout dysfonctionnement annulera toutes les mises et les gains."
                                     ],
                                     "ZH": [
-                                        "除了 FREE SPINS 外，所有获奖组合都是从左到右支付。如果野外符号在同一条获奖线上创建多个奖励组合，则仅授予玩家最有利的胜利。如果组合仅由野外符号组成，则将按照最高符号支付...",
-                                        "任何故障都将取消所有的投注和支付。"
+                                        "除了 FREE SPINS 外，所有获奖组坈都是从左到坳支付。如果野外符坷在坌一条获奖线上创建多个奖励组坈，则仅授予玩家最有利的胜利。如果组坈仅由野外符坷组戝，则将按照最高符坷支付...",
+                                        "任何故障都将坖消所有的投注和支付。"
                                     ],
                                     "US": [
                                         "All winning combinations are paid from left to right except FREE SPINS. In the case where the WILD symbol creates multiple prize combinations within the same winning line, only the most beneficial win for the player is awarded. In case of combinations consisting exclusively of WILD symbols, it will be paid as the highest symbol...",
@@ -460,13 +460,13 @@
                                                 "Sostituisce tutti i simboli, ad eccezione del simbolo FREE SPINS."
                                             ],
                                             "RU": [
-                                                "Заменяет все символы, кроме символа FREE SPINS."
+                                                "Заменѝет вѝе ѝимволы, кроме ѝимвола FREE SPINS."
                                             ],
                                             "FR": [
                                                 "Remplace tous les symboles, sauf le symbole FREE SPINS."
                                             ],
                                             "ZH": [
-                                                "替换所有符号，除了 FREE SPINS 符号。"
+                                                "替杢所有符坷，除了 FREE SPINS 符坷。"
                                             ],
                                             "US": [
                                                 "Substitutes all symbols, except the FREE SPINS symbol."
@@ -493,6 +493,7 @@
                                             "images/Settings/Symbol/10.png"
                                         ],
                                         "textAlignment": "center",
+                                        "hasSpecialData": true,
                                         "data": [
                                             {
                                                 "multipliers": "x5",
@@ -524,13 +525,13 @@
                                                 "3 o più simboli sparsi sui rulli, pagano un premio e assegnano FREE SPINS."
                                             ],
                                             "RU": [
-                                                "3 или более символов, разбросанных по барабанам, приносят приз и дарят FREE SPINS."
+                                                "3 или более ѝимволов, разброѝанных по барабанам, приноѝѝт приз и дарѝт FREE SPINS."
                                             ],
                                             "FR": [
                                                 "3 symboles ou plus dispersés sur les rouleaux, rapportent un prix et attribuent des FREE SPINS."
                                             ],
                                             "ZH": [
-                                                "散落在轴上的3个或更多符号，支付奖金并授予 FREE SPINS。"
+                                                "散蝽在轴上的3个或更多符坷，支付奖金并授予 FREE SPINS。"
                                             ],
                                             "US": [
                                                 "3 or more symbols scattered across the reels, pay a prize and award FREE SPINS."
@@ -570,7 +571,7 @@
                                                 "2 - FREE SPINS."
                                             ],
                                             "RU": [
-                                                "В случае срабатывания функции множителя, порядок наград следующий:",
+                                                "В ѝлучае ѝрабатываниѝ функции множителѝ, порѝдок наград ѝледующий:",
                                                 "1 - Призы за выигрышные линии;",
                                                 "2 - FREE SPINS."
                                             ],
@@ -580,7 +581,7 @@
                                                 "2 - FREE SPINS."
                                             ],
                                             "ZH": [
-                                                "如果触发了倍增器功能，则奖励顺序如下：",
+                                                "如果触坑了倝增器功能，则奖励顺庝如下：",
                                                 "1 - 赢线奖励；",
                                                 "2 - FREE SPINS。"
                                             ],
@@ -643,10 +644,10 @@
                                                 "Durante il gioco FREE SPINS il moltiplicatore viene applicato sia alle vincite che ai giri extra."
                                             ],
                                             "RU": [
-                                                "В этом бонусе игрок должен выбрать одну из звезд, чтобы раскрыть множитель FREE SPINS.",
-                                                "Если игрок не делает выбор, через несколько секунд один из вариантов будет выбран автоматически.",
-                                                "Игра FREE SPINS начинается с 10 спинов, и в течение игры у игрока есть возможность выиграть еще 10 спинов. Максимальное количество спинов - 100 в общей сложности.",
-                                                "Во время игры FREE SPINS множитель применяется как к выигрышам, так и к дополнительным спинам."
+                                                "В ѝтом бонуѝе игрок должен выбрать одну из звезд, чтобы раѝкрыть множитель FREE SPINS.",
+                                                "Еѝли игрок не делает выбор, через неѝколько ѝекунд один из вариантов будет выбран автоматичеѝки.",
+                                                "Игра FREE SPINS начинаетѝѝ ѝ 10 ѝпинов, и в течение игры у игрока еѝть возможноѝть выиграть еще 10 ѝпинов. Макѝимальное количеѝтво ѝпинов - 100 в общей ѝложноѝти.",
+                                                "Во времѝ игры FREE SPINS множитель применѝетѝѝ как к выигрышам, так и к дополнительным ѝпинам."
                                             ],
                                             "FR": [
                                                 "Dans ce bonus, le joueur doit sélectionner l'une des étoiles pour révéler le multiplicateur de FREE SPINS.",
@@ -655,10 +656,10 @@
                                                 "Pendant le jeu de FREE SPINS, le multiplicateur est appliqué à la fois aux gains et aux tours supplémentaires."
                                             ],
                                             "ZH": [
-                                                "在这个奖励中，玩家必须选择其中一个星星来揭示 FREE SPINS 的倍增器。",
-                                                "如果玩家没有做出选择，在几秒钟后，将自动选择其中一个选项。",
-                                                "FREE SPINS 游戏从10次旋转开始，在游戏过程中玩家有机会赢得10次额外的旋转。总共最多100次旋转。",
-                                                "在 FREE SPINS 游戏期间，倍增器适用于赢得和额外旋转。"
+                                                "在这个奖励中，玩家必须选择其中一个星星来杭示 FREE SPINS 的倝增器。",
+                                                "如果玩家没有坚出选择，在几秒钟坎，将自动选择其中一个选项。",
+                                                "FREE SPINS 游戝从10次旋转开始，在游戝过程中玩家有机会赢得10次额外的旋转。总共最多100次旋转。",
+                                                "在 FREE SPINS 游戝期间，倝增器适用于赢得和额外旋转。"
                                             ],
                                             "US": [
                                                 "In this bonus the player must select one of the stars to reveal the FREE SPINS Multiplier.",
@@ -713,6 +714,7 @@
                                             "images/Settings/Symbol/9.png"
                                         ],
                                         "textAlignment": "center",
+                                        "hasSpecialData": true,
                                         "data": [
                                             {
                                                 "multipliers": "x5",
@@ -750,13 +752,13 @@
                                                 "Con alcune combinazioni di simboli è possibile vincere giri extra e giocarli senza pagare crediti aggiuntivi. Durante la fase dei giri extra è possibile modificare la puntata."
                                             ],
                                             "RU": [
-                                                "С некоторыми комбинациями символов вы можете выиграть дополнительные спины и играть ими без дополнительной оплаты кредитов. Во время фазы дополнительных спинов также можно изменить ставку."
+                                                "С некоторыми комбинациѝми ѝимволов вы можете выиграть дополнительные ѝпины и играть ими без дополнительной оплаты кредитов. Во времѝ фазы дополнительных ѝпинов также можно изменить ѝтавку."
                                             ],
                                             "FR": [
                                                 "Avec certaines combinaisons de symboles, vous pouvez gagner des tours supplémentaires et les jouer sans payer de crédits supplémentaires. Pendant la phase de tours supplémentaires, la mise peut également être modifiée."
                                             ],
                                             "ZH": [
-                                                "通过某些符号组合，您可以赢得额外的旋转并在不支付额外信用的情况下进行游戏。在额外旋转阶段，还可以更改赌注。"
+                                                "通过柝些符坷组坈，您坯以赢得额外的旋转并在丝支付额外信用的情况下进行游戝。在额外旋转阶段，还坯以更改赌注。"
                                             ],
                                             "US": [
                                                 "With some symbol combinations you can win extra spins and play them without paying additional credits. During the extra spins phase the bet can also be changed."
@@ -812,16 +814,16 @@
                                                 "I giri extra vengono sempre giocati dopo la presentazione di tutti i risultati del giro precedente."
                                             ],
                                             "RU": [
-                                                "Игрок может видеть, как кнопка «Старт» меняется и начинается увеличение доступных дополнительных вращений. Игра начнется автоматически через 10 секунд, если игрок не нажмет кнопку «Старт».",
-                                                "Дополнительные вращения всегда играются после отображения всех результатов предыдущего спина."
+                                                "Игрок может видеть, как кнопка «Старт» менѝетѝѝ и начинаетѝѝ увеличение доѝтупных дополнительных вращений. Игра начнетѝѝ автоматичеѝки через 10 ѝекунд, еѝли игрок не нажмет кнопку «Старт».",
+                                                "Дополнительные вращениѝ вѝегда играютѝѝ поѝле отображениѝ вѝех результатов предыдущего ѝпина."
                                             ],
                                             "FR": [
                                                 "Le joueur peut voir le bouton de démarrage changer et commencer l'augmentation des tours supplémentaires disponibles. Le jeu se lancera automatiquement après 10 secondes si le joueur ne presse pas le bouton DÉMARRER.",
                                                 "Les tours supplémentaires sont toujours joués après la présentation de tous les résultats du tour précédent."
                                             ],
                                             "ZH": [
-                                                "玩家可以看到开始按钮的变化并开始增加可用的额外旋转次数。如果玩家不按下“开始”按钮，游戏将在10秒后自动播放。",
-                                                "额外旋转总是在显示出前一次旋转的所有结果之后进行播放。"
+                                                "玩家坯以看到开始按钮的坘化并开始增加坯用的额外旋转次数。如果玩家丝按下“开始”按钮，游戝将在10秒坎自动播放。",
+                                                "额外旋转总是在显示出剝一次旋转的所有结果之坎进行播放。"
                                             ],
                                             "US": [
                                                 "The player can see the Start button changing and start the increment of extra spins available. The game will auto play after 10 seconds if the player doesn't press the START button.",
@@ -884,12 +886,12 @@
                                                 "L'RTP del gioco del raddoppio è del 100%"
                                             ],
                                             "RU": [
-                                                "Игрок должен выбрать карту, красную или черную, чтобы увидеть, что находится на другой стороне. Если отображается x2, игрок может удвоить свой выигрыш.",
-                                                "Если отображается X, игрок теряет свой выигрыш. Игрок может удвоить свой выигрыш только ОДИН раз. В любое время игрок может забрать свои выигрыши, нажав кнопку TAKE.",
-                                                "Игра автоматически завершит фазу риска, если игрок не сделает никаких действий. Игрок может получить доступ к игре Double Up, нажав кнопку RISK в конце игры.",
-                                                "Если опция автовоспроизведения включена, игра в Double Up будет пропущена в конце игры.",
-                                                "Выигрыши более 10 000 раз исходной ставки не могут быть удвоены.",
-                                                "RTP игры Double Up составляет 100%."
+                                                "Игрок должен выбрать карту, краѝную или черную, чтобы увидеть, что находитѝѝ на другой ѝтороне. Еѝли отображаетѝѝ x2, игрок может удвоить ѝвой выигрыш.",
+                                                "Еѝли отображаетѝѝ X, игрок терѝет ѝвой выигрыш. Игрок может удвоить ѝвой выигрыш только ОДИН раз. В любое времѝ игрок может забрать ѝвои выигрыши, нажав кнопку TAKE.",
+                                                "Игра автоматичеѝки завершит фазу риѝка, еѝли игрок не ѝделает никаких дейѝтвий. Игрок может получить доѝтуп к игре Double Up, нажав кнопку RISK в конце игры.",
+                                                "Еѝли опциѝ автовоѝпроизведениѝ включена, игра в Double Up будет пропущена в конце игры.",
+                                                "Выигрыши более 10 000 раз иѝходной ѝтавки не могут быть удвоены.",
+                                                "RTP игры Double Up ѝоѝтавлѝет 100%."
                                             ],
                                             "FR": [
                                                 "Le joueur doit choisir une carte, rouge ou noire, pour voir ce qui se trouve de l'autre côté. Si un x2 est affiché, le joueur peut doubler son gain.",
@@ -900,12 +902,12 @@
                                                 "Le RTP du jeu Double Up est de 100%."
                                             ],
                                             "ZH": [
-                                                "玩家必须选择一张红色或黑色的牌，以查看另一面是什么。如果显示x2，则玩家可以将奖金加倍。",
-                                                "如果显示X，则玩家将失去奖金。玩家只能将奖金加倍一次。随时，玩家可以通过按下“取走”按钮来收取奖金。",
-                                                "如果玩家在10秒内不按下“开始”按钮，游戏将自动播放。",
-                                                "如果启用了自动播放选项，则在播放结束时将跳过双倍游戏。",
-                                                "超过初始赌注的10,000倍的赢利无法加倍。",
-                                                "双倍游戏的RTP为100%。"
+                                                "玩家必须选择一张红色或黑色的牌，以查看坦一面是什么。如果显示x2，则玩家坯以将奖金加倝。",
+                                                "如果显示X，则玩家将失去奖金。玩家坪能将奖金加倝一次。隝时，玩家坯以通过按下“坖走”按钮来收坖奖金。",
+                                                "如果玩家在10秒内丝按下“开始”按钮，游戝将自动播放。",
+                                                "如果坯用了自动播放选项，则在播放结束时将跳过坌倝游戝。",
+                                                "超过初始赌注的10,000倝的赢利无法加倝。",
+                                                "坌倝游戝的RTP为100%。"
                                             ],
                                             "US": [
                                                 "The player must select a card, red or black, to see what is on the other side. If an x2 is displayed the player can double their prize.",
@@ -936,7 +938,7 @@
             {
                 "Title": {
                     "EN": "RULES",
-                    "RU": "ПРАВИЛА",
+                    "RU": "ПРНВИЛН",
                     "FR": "RÈGLES",
                     "ZH": "规则",
                     "US": "RULES",
@@ -966,7 +968,7 @@
                                                 "Puntata Minima:"
                                             ],
                                             "RU": [
-                                                "Минимальная ставка:"
+                                                "Минимальнаѝ ѝтавка:"
                                             ],
                                             "ZH": [
                                                 "最低投注："
@@ -988,7 +990,7 @@
                                                 "Puntata Massima:"
                                             ],
                                             "RU": [
-                                                "Максимальная ставка:"
+                                                "Макѝимальнаѝ ѝтавка:"
                                             ],
                                             "ZH": [
                                                 "最大投注："
@@ -1010,7 +1012,7 @@
                                                 "La vincita massima è "
                                             ],
                                             "RU": [
-                                                "Максимальный выигрыш составляет "
+                                                "Макѝимальный выигрыш ѝоѝтавлѝет "
                                             ],
                                             "ZH": [
                                                 "最大赢额为 "
@@ -1032,10 +1034,10 @@
                                                 "Questo gioco ha un RTP teorico di:"
                                             ],
                                             "RU": [
-                                                "Теоретический процент возврата этой игры составляет:"
+                                                "Теоретичеѝкий процент возврата ѝтой игры ѝоѝтавлѝет:"
                                             ],
                                             "ZH": [
-                                                "此游戏的理论RTP为："
+                                                "此游戝的睆论RTP为："
                                             ],
                                             "PT": [
                                                 "Este jogo tem um RTP teórico de:"
@@ -1053,10 +1055,10 @@
                                                 "In caso di malfunzionamento, il gioco e l'eventuale vittoria saranno annullati."
                                             ],
                                             "RU": [
-                                                "В случае сбоя игра и возможный выигрыш будут аннулированы."
+                                                "В ѝлучае ѝбоѝ игра и возможный выигрыш будут аннулированы."
                                             ],
                                             "ZH": [
-                                                "如果发生故障，游戏和最终赢利将被取消。"
+                                                "如果坑生故障，游戝和最终赢利将被坖消。"
                                             ],
                                             "PT": [
                                                 "Em caso de mau funcionamento, o jogo e a eventual vitória serão cancelados."
@@ -1074,13 +1076,13 @@
                                                 "Il valore massimo del premio è limitato a 5.000 volte la puntata sia nel gioco principale che nei FREE SPINS. Se il premio delle giocate totali raggiunge 5.000 volte la puntata, la partita termina. Il premio viene assegnato e tutti i FREE SPINS rimasti vengono rimossi."
                                             ],
                                             "RU": [
-                                                "Максимальная сумма выигрыша ограничена 5 000 раз ставка как в основной игре, так и в FREE SPINS. Если выигрыш от общего количества спинов достигает 5 000 раз ставка, раунд завершается. Выигрыш начисляется, и все оставшиеся FREE SPINS удаляются."
+                                                "Макѝимальнаѝ ѝумма выигрыша ограничена 5 000 раз ѝтавка как в оѝновной игре, так и в FREE SPINS. Еѝли выигрыш от общего количеѝтва ѝпинов доѝтигает 5 000 раз ѝтавка, раунд завершаетѝѝ. Выигрыш начиѝлѝетѝѝ, и вѝе оѝтавшиеѝѝ FREE SPINS удалѝютѝѝ."
                                             ],
                                             "FR": [
                                                 "La valeur maximale du prix est limitée à 5 000 fois la mise à la fois dans le jeu principal et dans les FREE SPINS. Si le prix des tours totaux atteint 5 000 fois la mise, le tour se termine. Le prix est attribué et tous les FREE SPINS restants sont supprimés."
                                             ],
                                             "ZH": [
-                                                "奖金的最大值在主游戏和 FREE SPINS 中均限制为 5,000 倍的赌注。如果总轮次的奖金达到了 5,000 倍的赌注，游戏将结束。奖金将被授予，并且所有剩余的 FREE SPINS 将被移除。"
+                                                "奖金的最大值在主游戝和 FREE SPINS 中均陝制为 5,000 倝的赌注。如果总轮次的奖金达到了 5,000 倝的赌注，游戝将结束。奖金将被授予，并且所有剩余的 FREE SPINS 将被移除。"
                                             ],
                                             "US": [
                                                 "The maximum value of the prize is limited to 5,000x the bet in both the main game and FREE SPINS. If the prize of the total rounds hits 5,000x the bet, the round finishes. The prize is awarded and all the FREE SPINS left are removed."
@@ -1249,7 +1251,7 @@
                                                 "Démarre le jeu"
                                             ],
                                             "ZH": [
-                                                "开始游戏"
+                                                "开始游戝"
                                             ],
                                             "US": [
                                                 "Starts the game play"
@@ -1275,7 +1277,7 @@
                                                 "Ouvre le menu de lecture automatique."
                                             ],
                                             "ZH": [
-                                                "打开自动播放菜单"
+                                                "打开自动播放蝜坕"
                                             ],
                                             "US": [
                                                 "Opens the Autoplay menu."
@@ -1295,13 +1297,13 @@
                                                 "Apre il menu Puntata."
                                             ],
                                             "RU": [
-                                                "Открывает меню ставок."
+                                                "Открывает меню ѝтавок."
                                             ],
                                             "FR": [
                                                 "Ouvre le menu des paris."
                                             ],
                                             "ZH": [
-                                                "打开投注菜单"
+                                                "打开投注蝜坕"
                                             ],
                                             "US": [
                                                 "Opens the Bet menu."
@@ -1321,13 +1323,13 @@
                                                 "Apre la schermata delle informazioni."
                                             ],
                                             "RU": [
-                                                "Открывает экран с информацией/настройками игры."
+                                                "Открывает ѝкран ѝ информацией/наѝтройками игры."
                                             ],
                                             "FR": [
                                                 "Ouvre l'écran d'informations/réglages du jeu."
                                             ],
                                             "ZH": [
-                                                "打开游戏信息/设置屏幕"
+                                                "打开游戝信杯/设置屝幕"
                                             ],
                                             "US": [
                                                 "Opens the game information/settings screen."
@@ -1353,7 +1355,7 @@
                                                 "Active/Désactive le volume du jeu."
                                             ],
                                             "ZH": [
-                                                "启用/禁用游戏音量"
+                                                "坯用/禝用游戝音針"
                                             ],
                                             "US": [
                                                 "Enables/Disables game volume."
@@ -1373,13 +1375,13 @@
                                                 "Attiva/Dissativa il gioco a schermo intero."
                                             ],
                                             "RU": [
-                                                "Включает/отключает полноэкранный режим игры."
+                                                "Включает/отключает полноѝкранный режим игры."
                                             ],
                                             "FR": [
                                                 "Active/Désactive le mode plein écran."
                                             ],
                                             "ZH": [
-                                                "启用/禁用全屏游戏"
+                                                "坯用/禝用全屝游戝"
                                             ],
                                             "US": [
                                                 "Enables/Disables full-screen gameplay."
@@ -1399,13 +1401,13 @@
                                                 "Apre la cronologia del gioco."
                                             ],
                                             "RU": [
-                                                "Открывает историю игры."
+                                                "Открывает иѝторию игры."
                                             ],
                                             "FR": [
                                                 "Ouvre l'historique des parties."
                                             ],
                                             "ZH": [
-                                                "打开游戏历史记录"
+                                                "打开游戝历坲记录"
                                             ],
                                             "US": [
                                                 "Opens game history."
@@ -1425,13 +1427,13 @@
                                                 "Cambia la lingua del gioco."
                                             ],
                                             "RU": [
-                                                "Изменяет язык игры."
+                                                "Изменѝет ѝзык игры."
                                             ],
                                             "FR": [
                                                 "Change la langue du jeu."
                                             ],
                                             "ZH": [
-                                                "更改游戏语言"
+                                                "更改游戝语言"
                                             ],
                                             "US": [
                                                 "Changes game language."
@@ -1451,13 +1453,13 @@
                                                 "Cambia lo stato della musica."
                                             ],
                                             "RU": [
-                                                "Изменяет состояние музыки."
+                                                "Изменѝет ѝоѝтоѝние музыки."
                                             ],
                                             "FR": [
                                                 "Change l'état de la musique."
                                             ],
                                             "ZH": [
-                                                "更改音乐状态"
+                                                "更改音九状思"
                                             ],
                                             "US": [
                                                 "Changes music state."
@@ -1477,13 +1479,13 @@
                                                 "Attivare il Turbo."
                                             ],
                                             "RU": [
-                                                "Активирует турбо-режим."
+                                                "Нктивирует турбо-режим."
                                             ],
                                             "FR": [
                                                 "Active le mode Turbo."
                                             ],
                                             "ZH": [
-                                                "启动涡轮模式"
+                                                "坯动涡轮模弝"
                                             ],
                                             "US": [
                                                 "Activates Turbo."
