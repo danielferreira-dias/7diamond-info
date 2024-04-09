@@ -795,11 +795,11 @@ function createbuyBonusSection(mainSection, subSection, subContainer) {
                 }
 
                 for (let j = 0; j < contentDisplay.featureContent.length; j++) {
-                    const singularDiv = document.createElement("div");
 
                     singularDiv.style.flexDirection = contentDisplay.featureContent[j].direction;
 
                     if (contentDisplay.featureContent[j].type === "img") {
+
                         contentDiv = document.createElement("div");
                         contentDiv.classList.add("content-div-class-flex-img");
                         contentDiv.style.flexWrap = contentDisplay.featureContent[j].wrap;
@@ -807,6 +807,11 @@ function createbuyBonusSection(mainSection, subSection, subContainer) {
                         for (let i = 0; i < contentDisplay.featureContent[j].url.length; i++) {
                             const contentDivImage = document.createElement("img");
                             contentDivImage.src = contentDisplay.featureContent[j].url[i];
+                            let imageCount = contentDisplay.featureContent[j].url.length;
+                            if (imageCount > 1) {
+                                let imageWidth = `calc(100% / ${imageCount})`;
+                                contentDivImage.style.width = imageWidth;
+                            }
                             if (contentDisplay.featureContent[j].divMaxWith == "bigMaxWidth") {
                                 contentDivImage.classList.add('bigMaxWidth')
                             } else if (contentDisplay.featureContent[j].divMaxWith == "smallMaxWidth") {
@@ -814,6 +819,7 @@ function createbuyBonusSection(mainSection, subSection, subContainer) {
                             }
                             contentDiv.appendChild(contentDivImage);
                         }
+                        singularDiv.appendChild(contentDiv);
                     } else if (contentDisplay.featureContent[j].type === "text") {
                         singularDiv.classList.add("content-div-class-flex-text");
                         const textParagraph = document.createElement("p");
@@ -821,15 +827,17 @@ function createbuyBonusSection(mainSection, subSection, subContainer) {
 
                         singularDiv.appendChild(textParagraph);
                     } else if (contentDisplay.featureContent[j].type === "plural_text") {
-
                         for (let i = 0; i < contentDisplay.featureContent[j].content[currentLanguage].length; i++) {
-
                             singularDiv.classList.add("content-div-class-flex-text");
-
                             const textParagraph = document.createElement("p");
                             textParagraph.textContent = contentDisplay.featureContent[j].content[currentLanguage][i];
-
                             singularDiv.appendChild(textParagraph);
+
+                            // Add \n\n after each paragraph except the last one
+                            if (i < contentDisplay.featureContent[j].content[currentLanguage].length - 1) {
+                                singularDiv.appendChild(document.createElement("br"));
+                                singularDiv.appendChild(document.createElement("br"));
+                            }
                         }
                     } else if (contentDisplay.featureContent[j].type === "img_text") {
 
@@ -840,6 +848,12 @@ function createbuyBonusSection(mainSection, subSection, subContainer) {
                         for (let i = 0; i < contentDisplay.featureContent[j].url.length; i++) {
                             const contentDivImage = document.createElement("img");
                             contentDivImage.src = contentDisplay.featureContent[j].url[i];
+
+                            let imageCount = contentDisplay.featureContent[j].url.length;
+                            if (imageCount > 1) {
+                                let imageWidth = `calc(100% / ${imageCount})`;
+                                contentDivImage.style.width = imageWidth;
+                            }
                             if (contentDisplay.featureContent[j].divMaxWith == "bigMaxWidth") {
                                 contentDivImage.classList.add('bigMaxWidth')
                             } else if (contentDisplay.featureContent[j].divMaxWith == "smallMaxWidth") {
@@ -921,6 +935,7 @@ function createbuyBonusSection(mainSection, subSection, subContainer) {
                                 rightDivValueCol.appendChild(valueSpecialContentDiv);
                             })
                         }
+
                         if (contentDisplay.featureContent[j].hasSpecialData == true) {
                             numberOfTextsDiv.appendChild(rightDivValueCol)
 
@@ -930,6 +945,7 @@ function createbuyBonusSection(mainSection, subSection, subContainer) {
 
                             contentDiv.appendChild(rightDivParent)
                         }
+
                         singularDiv.appendChild(contentDiv);
 
                     } else if (contentDisplay.featureContent[j].type == "divContent") {
