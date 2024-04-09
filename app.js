@@ -547,6 +547,7 @@ function createNewSections(mainSection, subSection, subContainer) {
 
                         contentDiv.classList.add("content-div-class-flex-img");
                         contentDiv.style.flexWrap = contentDisplay.featureContent[j].wrap;
+                        contentDiv.style.flexDirection = contentDisplay.featureContent[j].contentDirection
 
                         for (let i = 0; i < contentDisplay.featureContent[j].url.length; i++) {
                             const contentDivImage = document.createElement("img");
@@ -602,7 +603,11 @@ function createNewSections(mainSection, subSection, subContainer) {
 
                                 const valueText = document.createElement("p");
                                 valueText.classList.add("symbol-value-text");
-                                valueText.innerText = dataInfo.value + '' + currentCurrency;
+                                if (dataInfo.value != "") {
+                                    valueText.innerText = dataInfo.value + '' + currentCurrency;
+                                } else {
+                                    valueText.innerText = dataInfo.value
+                                }
 
                                 // Apply CSS to control text overflow
                                 valueText.style.overflow = "hidden";
@@ -827,6 +832,7 @@ function createbuyBonusSection(mainSection, subSection, subContainer) {
 
                         singularDiv.classList.add("content-div-class-flex-img");
                         singularDiv.style.flexWrap = contentDisplay.featureContent[j].wrap;
+                        singularDiv.style.flexDirection = contentDisplay.featureContent[j].contentDirection
 
                         for (let i = 0; i < contentDisplay.featureContent[j].url.length; i++) {
                             const contentDivImage = document.createElement("img");
@@ -877,7 +883,11 @@ function createbuyBonusSection(mainSection, subSection, subContainer) {
 
                                 const valueText = document.createElement("p");
                                 valueText.classList.add("symbol-value-text");
-                                valueText.innerText = dataInfo.value + '' + currentCurrency;
+                                if (dataInfo.value != "") {
+                                    valueText.innerText = dataInfo.value + '' + currentCurrency;
+                                } else {
+                                    valueText.innerText = dataInfo.value
+                                }
 
                                 // Apply CSS to control text overflow
                                 valueText.style.overflow = "hidden";

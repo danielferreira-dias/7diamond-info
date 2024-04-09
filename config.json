@@ -512,7 +512,7 @@
                                             }
                                         ],
                                         "direction": "row",
-                                        "contentDirection": "column"
+                                        "contentDirection": "row"
                                     },
                                     {
                                         "type": "text",
@@ -733,7 +733,7 @@
                                             }
                                         ],
                                         "direction": "row",
-                                        "contentDirection": "column"
+                                        "contentDirection": "row"
                                     }
                                 ]
                             },
