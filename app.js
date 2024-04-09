@@ -638,13 +638,15 @@ function createNewSections(mainSection, subSection, subContainer) {
                                 rightDivValueCol.appendChild(valueSpecialContentDiv);
                             })
                         }
-                        numberOfTextsDiv.appendChild(rightDivValueCol)
+                        if (contentDisplay.featureContent[j].hasSpecialData == true) {
+                            numberOfTextsDiv.appendChild(rightDivValueCol)
 
-                        // Append columns to parent
-                        rightDivParent.appendChild(rightDivMultiplierCol);
-                        rightDivParent.appendChild(rightDivValueCol);
+                            // Append columns to parent
+                            rightDivParent.appendChild(rightDivMultiplierCol);
+                            rightDivParent.appendChild(rightDivValueCol);
 
-                        contentDiv.appendChild(rightDivParent)
+                            contentDiv.appendChild(rightDivParent)
+                        }
 
                         singularDiv.appendChild(contentDiv);
 
@@ -798,8 +800,9 @@ function createbuyBonusSection(mainSection, subSection, subContainer) {
                     singularDiv.style.flexDirection = contentDisplay.featureContent[j].direction;
 
                     if (contentDisplay.featureContent[j].type === "img") {
-                        singularDiv.classList.add("content-div-class-flex-img");
-                        singularDiv.style.flexWrap = contentDisplay.featureContent[j].wrap;
+                        contentDiv = document.createElement("div");
+                        contentDiv.classList.add("content-div-class-flex-img");
+                        contentDiv.style.flexWrap = contentDisplay.featureContent[j].wrap;
 
                         for (let i = 0; i < contentDisplay.featureContent[j].url.length; i++) {
                             const contentDivImage = document.createElement("img");
@@ -809,7 +812,7 @@ function createbuyBonusSection(mainSection, subSection, subContainer) {
                             } else if (contentDisplay.featureContent[j].divMaxWith == "smallMaxWidth") {
                                 contentDivImage.classList.add('smallMaxWidth')
                             }
-                            singularDiv.appendChild(contentDivImage);
+                            contentDiv.appendChild(contentDivImage);
                         }
                     } else if (contentDisplay.featureContent[j].type === "text") {
                         singularDiv.classList.add("content-div-class-flex-text");
@@ -918,12 +921,16 @@ function createbuyBonusSection(mainSection, subSection, subContainer) {
                                 rightDivValueCol.appendChild(valueSpecialContentDiv);
                             })
                         }
-                        numberOfTextsDiv.appendChild(rightDivValueCol)
+                        if (contentDisplay.featureContent[j].hasSpecialData == true) {
+                            numberOfTextsDiv.appendChild(rightDivValueCol)
 
-                        // Append columns to parent
-                        rightDivParent.appendChild(rightDivMultiplierCol);
-                        rightDivParent.appendChild(rightDivValueCol);
-                        singularDiv.appendChild(rightDivParent);
+                            // Append columns to parent
+                            rightDivParent.appendChild(rightDivMultiplierCol);
+                            rightDivParent.appendChild(rightDivValueCol);
+
+                            contentDiv.appendChild(rightDivParent)
+                        }
+                        singularDiv.appendChild(contentDiv);
 
                     } else if (contentDisplay.featureContent[j].type == "divContent") {
                         singularDiv.classList.add("content-div-class-flex-div");
