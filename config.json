@@ -27,17 +27,89 @@
                                             {
                                                 "multipliers": "x5",
                                                 "value": "4,00",
-                                                "specialContent": "+2SPIN"
+                                                "specialContent": [
+                                                    {
+                                                        "EN": [
+                                                            "+2SPIN"
+                                                        ],
+                                                        "IT": [
+                                                            "+2SPIN"
+                                                        ],
+                                                        "RU": [
+                                                            "+2SPIN"
+                                                        ],
+                                                        "FR": [
+                                                            "+2SPIN"
+                                                        ],
+                                                        "ZH": [
+                                                            "+2SPIN"
+                                                        ],
+                                                        "US": [
+                                                            "+2SPIN"
+                                                        ],
+                                                        "PT": [
+                                                            "+2SPIN"
+                                                        ]
+                                                    }
+                                                ]
                                             },
                                             {
                                                 "multipliers": "x4",
                                                 "value": "1,00",
-                                                "specialContent": "+1SPIN"
+                                                "specialContent": [
+                                                    {
+                                                        "EN": [
+                                                            "+1SPIN"
+                                                        ],
+                                                        "IT": [
+                                                            "+1SPIN"
+                                                        ],
+                                                        "RU": [
+                                                            "+1SPIN"
+                                                        ],
+                                                        "FR": [
+                                                            "+1SPIN"
+                                                        ],
+                                                        "ZH": [
+                                                            "+1SPIN"
+                                                        ],
+                                                        "US": [
+                                                            "+1SPIN"
+                                                        ],
+                                                        "PT": [
+                                                            "+1SPIN"
+                                                        ]
+                                                    }
+                                                ]
                                             },
                                             {
                                                 "multipliers": "x3",
                                                 "value": "0,50",
-                                                "specialContent": null
+                                                "specialContent": [
+                                                    {
+                                                        "EN": [
+                                                            null
+                                                        ],
+                                                        "IT": [
+                                                            null
+                                                        ],
+                                                        "RU": [
+                                                            null
+                                                        ],
+                                                        "FR": [
+                                                            null
+                                                        ],
+                                                        "ZH": [
+                                                            null
+                                                        ],
+                                                        "US": [
+                                                            null
+                                                        ],
+                                                        "PT": [
+                                                            null
+                                                        ]
+                                                    }
+                                                ]
                                             }
                                         ],
                                         "Layout": "flex",
@@ -49,17 +121,89 @@
                                             {
                                                 "multipliers": "x5",
                                                 "value": "4,00",
-                                                "specialContent": "+2SPIN"
+                                                "specialContent": [
+                                                    {
+                                                        "EN": [
+                                                            "+2SPIN"
+                                                        ],
+                                                        "IT": [
+                                                            "+2SPIN"
+                                                        ],
+                                                        "RU": [
+                                                            "+2SPIN"
+                                                        ],
+                                                        "FR": [
+                                                            "+2SPIN"
+                                                        ],
+                                                        "ZH": [
+                                                            "+2SPIN"
+                                                        ],
+                                                        "US": [
+                                                            "+2SPIN"
+                                                        ],
+                                                        "PT": [
+                                                            "+2SPIN"
+                                                        ]
+                                                    }
+                                                ]
                                             },
                                             {
                                                 "multipliers": "x4",
                                                 "value": "1,00",
-                                                "specialContent": "+1SPIN"
+                                                "specialContent": [
+                                                    {
+                                                        "EN": [
+                                                            "+1SPIN"
+                                                        ],
+                                                        "IT": [
+                                                            "+1SPIN"
+                                                        ],
+                                                        "RU": [
+                                                            "+1SPIN"
+                                                        ],
+                                                        "FR": [
+                                                            "+1SPIN"
+                                                        ],
+                                                        "ZH": [
+                                                            "+1SPIN"
+                                                        ],
+                                                        "US": [
+                                                            "+1SPIN"
+                                                        ],
+                                                        "PT": [
+                                                            "+1SPIN"
+                                                        ]
+                                                    }
+                                                ]
                                             },
                                             {
                                                 "multipliers": "x3",
                                                 "value": "0,50",
-                                                "specialContent": null
+                                                "specialContent": [
+                                                    {
+                                                        "EN": [
+                                                            null
+                                                        ],
+                                                        "IT": [
+                                                            null
+                                                        ],
+                                                        "RU": [
+                                                            null
+                                                        ],
+                                                        "FR": [
+                                                            null
+                                                        ],
+                                                        "ZH": [
+                                                            null
+                                                        ],
+                                                        "US": [
+                                                            null
+                                                        ],
+                                                        "PT": [
+                                                            null
+                                                        ]
+                                                    }
+                                                ]
                                             }
                                         ],
                                         "Layout": "flex",
@@ -71,17 +215,89 @@
                                             {
                                                 "multipliers": "x5",
                                                 "value": "4,00",
-                                                "specialContent": "+2SPIN"
+                                                "specialContent": [
+                                                    {
+                                                        "EN": [
+                                                            "+2SPIN"
+                                                        ],
+                                                        "IT": [
+                                                            "+2SPIN"
+                                                        ],
+                                                        "RU": [
+                                                            "+2SPIN"
+                                                        ],
+                                                        "FR": [
+                                                            "+2SPIN"
+                                                        ],
+                                                        "ZH": [
+                                                            "+2SPIN"
+                                                        ],
+                                                        "US": [
+                                                            "+2SPIN"
+                                                        ],
+                                                        "PT": [
+                                                            "+2SPIN"
+                                                        ]
+                                                    }
+                                                ]
                                             },
                                             {
                                                 "multipliers": "x4",
                                                 "value": "1,00",
-                                                "specialContent": "+1SPIN"
+                                                "specialContent": [
+                                                    {
+                                                        "EN": [
+                                                            "+1SPIN"
+                                                        ],
+                                                        "IT": [
+                                                            "+1SPIN"
+                                                        ],
+                                                        "RU": [
+                                                            "+1SPIN"
+                                                        ],
+                                                        "FR": [
+                                                            "+1SPIN"
+                                                        ],
+                                                        "ZH": [
+                                                            "+1SPIN"
+                                                        ],
+                                                        "US": [
+                                                            "+1SPIN"
+                                                        ],
+                                                        "PT": [
+                                                            "+1SPIN"
+                                                        ]
+                                                    }
+                                                ]
                                             },
                                             {
                                                 "multipliers": "x3",
                                                 "value": "0,50",
-                                                "specialContent": null
+                                                "specialContent": [
+                                                    {
+                                                        "EN": [
+                                                            null
+                                                        ],
+                                                        "IT": [
+                                                            null
+                                                        ],
+                                                        "RU": [
+                                                            null
+                                                        ],
+                                                        "FR": [
+                                                            null
+                                                        ],
+                                                        "ZH": [
+                                                            null
+                                                        ],
+                                                        "US": [
+                                                            null
+                                                        ],
+                                                        "PT": [
+                                                            null
+                                                        ]
+                                                    }
+                                                ]
                                             }
                                         ],
                                         "Layout": "flex",
@@ -98,12 +314,60 @@
                                             {
                                                 "multipliers": "x4",
                                                 "value": "2,50",
-                                                "specialContent": "+2SPIN"
+                                                "specialContent": [
+                                                    {
+                                                        "EN": [
+                                                            "+2SPIN"
+                                                        ],
+                                                        "IT": [
+                                                            "+2SPIN"
+                                                        ],
+                                                        "RU": [
+                                                            "+2SPIN"
+                                                        ],
+                                                        "FR": [
+                                                            "+2SPIN"
+                                                        ],
+                                                        "ZH": [
+                                                            "+2SPIN"
+                                                        ],
+                                                        "US": [
+                                                            "+2SPIN"
+                                                        ],
+                                                        "PT": [
+                                                            "+2SPIN"
+                                                        ]
+                                                    }
+                                                ]
                                             },
                                             {
                                                 "multipliers": "x3",
                                                 "value": "1,00",
-                                                "specialContent": null
+                                                "specialContent": [
+                                                    {
+                                                        "EN": [
+                                                            null
+                                                        ],
+                                                        "IT": [
+                                                            null
+                                                        ],
+                                                        "RU": [
+                                                            null
+                                                        ],
+                                                        "FR": [
+                                                            null
+                                                        ],
+                                                        "ZH": [
+                                                            null
+                                                        ],
+                                                        "US": [
+                                                            null
+                                                        ],
+                                                        "PT": [
+                                                            null
+                                                        ]
+                                                    }
+                                                ]
                                             }
                                         ],
                                         "Layout": "flex",
@@ -120,12 +384,60 @@
                                             {
                                                 "multipliers": "x4",
                                                 "value": "2,50",
-                                                "specialContent": "+2SPIN"
+                                                "specialContent": [
+                                                    {
+                                                        "EN": [
+                                                            "+2SPIN"
+                                                        ],
+                                                        "IT": [
+                                                            "+2SPIN"
+                                                        ],
+                                                        "RU": [
+                                                            "+2SPIN"
+                                                        ],
+                                                        "FR": [
+                                                            "+2SPIN"
+                                                        ],
+                                                        "ZH": [
+                                                            "+2SPIN"
+                                                        ],
+                                                        "US": [
+                                                            "+2SPIN"
+                                                        ],
+                                                        "PT": [
+                                                            "+2SPIN"
+                                                        ]
+                                                    }
+                                                ]
                                             },
                                             {
                                                 "multipliers": "x3",
                                                 "value": "1,00",
-                                                "specialContent": null
+                                                "specialContent": [
+                                                    {
+                                                        "EN": [
+                                                            null
+                                                        ],
+                                                        "IT": [
+                                                            null
+                                                        ],
+                                                        "RU": [
+                                                            null
+                                                        ],
+                                                        "FR": [
+                                                            null
+                                                        ],
+                                                        "ZH": [
+                                                            null
+                                                        ],
+                                                        "US": [
+                                                            null
+                                                        ],
+                                                        "PT": [
+                                                            null
+                                                        ]
+                                                    }
+                                                ]
                                             }
                                         ],
                                         "Layout": "flex",
@@ -137,22 +449,118 @@
                                             {
                                                 "multipliers": "x5",
                                                 "value": "40,00",
-                                                "specialContent": null
+                                                "specialContent": [
+                                                    {
+                                                        "EN": [
+                                                            null
+                                                        ],
+                                                        "IT": [
+                                                            null
+                                                        ],
+                                                        "RU": [
+                                                            null
+                                                        ],
+                                                        "FR": [
+                                                            null
+                                                        ],
+                                                        "ZH": [
+                                                            null
+                                                        ],
+                                                        "US": [
+                                                            null
+                                                        ],
+                                                        "PT": [
+                                                            null
+                                                        ]
+                                                    }
+                                                ]
                                             },
                                             {
                                                 "multipliers": "x4",
                                                 "value": "4,00",
-                                                "specialContent": "+2SPIN"
+                                                "specialContent": [
+                                                    {
+                                                        "EN": [
+                                                            "+2SPIN"
+                                                        ],
+                                                        "IT": [
+                                                            "+2SPIN"
+                                                        ],
+                                                        "RU": [
+                                                            "+2SPIN"
+                                                        ],
+                                                        "FR": [
+                                                            "+2SPIN"
+                                                        ],
+                                                        "ZH": [
+                                                            "+2SPIN"
+                                                        ],
+                                                        "US": [
+                                                            "+2SPIN"
+                                                        ],
+                                                        "PT": [
+                                                            "+2SPIN"
+                                                        ]
+                                                    }
+                                                ]
                                             },
                                             {
                                                 "multipliers": "x3",
                                                 "value": "1,00",
-                                                "specialContent": "+1SPIN"
+                                                "specialContent": [
+                                                    {
+                                                        "EN": [
+                                                            "+1SPIN"
+                                                        ],
+                                                        "IT": [
+                                                            "+1SPIN"
+                                                        ],
+                                                        "RU": [
+                                                            "+1SPIN"
+                                                        ],
+                                                        "FR": [
+                                                            "+1SPIN"
+                                                        ],
+                                                        "ZH": [
+                                                            "+1SPIN"
+                                                        ],
+                                                        "US": [
+                                                            "+1SPIN"
+                                                        ],
+                                                        "PT": [
+                                                            "+1SPIN"
+                                                        ]
+                                                    }
+                                                ]
                                             },
                                             {
                                                 "multipliers": "x2",
                                                 "value": "",
-                                                "specialContent": "1SPIN"
+                                                "specialContent": [
+                                                    {
+                                                        "EN": [
+                                                            "1SPIN"
+                                                        ],
+                                                        "IT": [
+                                                            "1SPIN"
+                                                        ],
+                                                        "RU": [
+                                                            "1SPIN"
+                                                        ],
+                                                        "FR": [
+                                                            "1SPIN"
+                                                        ],
+                                                        "ZH": [
+                                                            "1SPIN"
+                                                        ],
+                                                        "US": [
+                                                            "1SPIN"
+                                                        ],
+                                                        "PT": [
+                                                            "1SPIN"
+                                                        ]
+                                                    }
+                                                ]
                                             }
                                         ],
                                         "Layout": "flex",
@@ -164,22 +572,118 @@
                                             {
                                                 "multipliers": "x5",
                                                 "value": "40,00",
-                                                "specialContent": null
+                                                "specialContent": [
+                                                    {
+                                                        "EN": [
+                                                            null
+                                                        ],
+                                                        "IT": [
+                                                            null
+                                                        ],
+                                                        "RU": [
+                                                            null
+                                                        ],
+                                                        "FR": [
+                                                            null
+                                                        ],
+                                                        "ZH": [
+                                                            null
+                                                        ],
+                                                        "US": [
+                                                            null
+                                                        ],
+                                                        "PT": [
+                                                            null
+                                                        ]
+                                                    }
+                                                ]
                                             },
                                             {
                                                 "multipliers": "x4",
                                                 "value": "4,50",
-                                                "specialContent": "+2SPIN"
+                                                "specialContent": [
+                                                    {
+                                                        "EN": [
+                                                            "+2SPIN"
+                                                        ],
+                                                        "IT": [
+                                                            "+2SPIN"
+                                                        ],
+                                                        "RU": [
+                                                            "+2SPIN"
+                                                        ],
+                                                        "FR": [
+                                                            "+2SPIN"
+                                                        ],
+                                                        "ZH": [
+                                                            "+2SPIN"
+                                                        ],
+                                                        "US": [
+                                                            "+2SPIN"
+                                                        ],
+                                                        "PT": [
+                                                            "+2SPIN"
+                                                        ]
+                                                    }
+                                                ]
                                             },
                                             {
                                                 "multipliers": "x3",
                                                 "value": "1,50",
-                                                "specialContent": "+1SPIN"
+                                                "specialContent": [
+                                                    {
+                                                        "EN": [
+                                                            "+1SPIN"
+                                                        ],
+                                                        "IT": [
+                                                            "+1SPIN"
+                                                        ],
+                                                        "RU": [
+                                                            "+1SPIN"
+                                                        ],
+                                                        "FR": [
+                                                            "+1SPIN"
+                                                        ],
+                                                        "ZH": [
+                                                            "+1SPIN"
+                                                        ],
+                                                        "US": [
+                                                            "+1SPIN"
+                                                        ],
+                                                        "PT": [
+                                                            "+1SPIN"
+                                                        ]
+                                                    }
+                                                ]
                                             },
                                             {
                                                 "multipliers": "x2",
                                                 "value": "",
-                                                "specialContent": "1SPIN"
+                                                "specialContent": [
+                                                    {
+                                                        "EN": [
+                                                            "1SPIN"
+                                                        ],
+                                                        "IT": [
+                                                            "1SPIN"
+                                                        ],
+                                                        "RU": [
+                                                            "1SPIN"
+                                                        ],
+                                                        "FR": [
+                                                            "1SPIN"
+                                                        ],
+                                                        "ZH": [
+                                                            "1SPIN"
+                                                        ],
+                                                        "US": [
+                                                            "1SPIN"
+                                                        ],
+                                                        "PT": [
+                                                            "1SPIN"
+                                                        ]
+                                                    }
+                                                ]
                                             }
                                         ],
                                         "Layout": "flex",
@@ -191,22 +695,118 @@
                                             {
                                                 "multipliers": "x5",
                                                 "value": "100,00",
-                                                "specialContent": null
+                                                "specialContent": [
+                                                    {
+                                                        "EN": [
+                                                            null
+                                                        ],
+                                                        "IT": [
+                                                            null
+                                                        ],
+                                                        "RU": [
+                                                            null
+                                                        ],
+                                                        "FR": [
+                                                            null
+                                                        ],
+                                                        "ZH": [
+                                                            null
+                                                        ],
+                                                        "US": [
+                                                            null
+                                                        ],
+                                                        "PT": [
+                                                            null
+                                                        ]
+                                                    }
+                                                ]
                                             },
                                             {
                                                 "multipliers": "x4",
                                                 "value": "20,00",
-                                                "specialContent": null
+                                                "specialContent": [
+                                                    {
+                                                        "EN": [
+                                                            null
+                                                        ],
+                                                        "IT": [
+                                                            null
+                                                        ],
+                                                        "RU": [
+                                                            null
+                                                        ],
+                                                        "FR": [
+                                                            null
+                                                        ],
+                                                        "ZH": [
+                                                            null
+                                                        ],
+                                                        "US": [
+                                                            null
+                                                        ],
+                                                        "PT": [
+                                                            null
+                                                        ]
+                                                    }
+                                                ]
                                             },
                                             {
                                                 "multipliers": "x3",
                                                 "value": "2,00",
-                                                "specialContent": "+2SPIN"
+                                                "specialContent": [
+                                                    {
+                                                        "EN": [
+                                                            "+2SPIN"
+                                                        ],
+                                                        "IT": [
+                                                            "+2SPIN"
+                                                        ],
+                                                        "RU": [
+                                                            "+2SPIN"
+                                                        ],
+                                                        "FR": [
+                                                            "+2SPIN"
+                                                        ],
+                                                        "ZH": [
+                                                            "+2SPIN"
+                                                        ],
+                                                        "US": [
+                                                            "+2SPIN"
+                                                        ],
+                                                        "PT": [
+                                                            "+2SPIN"
+                                                        ]
+                                                    }
+                                                ]
                                             },
                                             {
                                                 "multipliers": "x2",
                                                 "value": "0,50",
-                                                "specialContent": null
+                                                "specialContent": [
+                                                    {
+                                                        "EN": [
+                                                            null
+                                                        ],
+                                                        "IT": [
+                                                            null
+                                                        ],
+                                                        "RU": [
+                                                            null
+                                                        ],
+                                                        "FR": [
+                                                            null
+                                                        ],
+                                                        "ZH": [
+                                                            null
+                                                        ],
+                                                        "US": [
+                                                            null
+                                                        ],
+                                                        "PT": [
+                                                            null
+                                                        ]
+                                                    }
+                                                ]
                                             }
                                         ],
                                         "Layout": "flex",
@@ -218,22 +818,118 @@
                                             {
                                                 "multipliers": "x5",
                                                 "value": "250,00",
-                                                "specialContent": null
+                                                "specialContent": [
+                                                    {
+                                                        "EN": [
+                                                            null
+                                                        ],
+                                                        "IT": [
+                                                            null
+                                                        ],
+                                                        "RU": [
+                                                            null
+                                                        ],
+                                                        "FR": [
+                                                            null
+                                                        ],
+                                                        "ZH": [
+                                                            null
+                                                        ],
+                                                        "US": [
+                                                            null
+                                                        ],
+                                                        "PT": [
+                                                            null
+                                                        ]
+                                                    }
+                                                ]
                                             },
                                             {
                                                 "multipliers": "x4",
                                                 "value": "50,00",
-                                                "specialContent": null
+                                                "specialContent": [
+                                                    {
+                                                        "EN": [
+                                                            null
+                                                        ],
+                                                        "IT": [
+                                                            null
+                                                        ],
+                                                        "RU": [
+                                                            null
+                                                        ],
+                                                        "FR": [
+                                                            null
+                                                        ],
+                                                        "ZH": [
+                                                            null
+                                                        ],
+                                                        "US": [
+                                                            null
+                                                        ],
+                                                        "PT": [
+                                                            null
+                                                        ]
+                                                    }
+                                                ]
                                             },
                                             {
                                                 "multipliers": "x3",
                                                 "value": "5,00",
-                                                "specialContent": null
+                                                "specialContent": [
+                                                    {
+                                                        "EN": [
+                                                            null
+                                                        ],
+                                                        "IT": [
+                                                            null
+                                                        ],
+                                                        "RU": [
+                                                            null
+                                                        ],
+                                                        "FR": [
+                                                            null
+                                                        ],
+                                                        "ZH": [
+                                                            null
+                                                        ],
+                                                        "US": [
+                                                            null
+                                                        ],
+                                                        "PT": [
+                                                            null
+                                                        ]
+                                                    }
+                                                ]
                                             },
                                             {
                                                 "multipliers": "x2",
                                                 "value": "1,00",
-                                                "specialContent": "+1SPIN"
+                                                "specialContent": [
+                                                    {
+                                                        "EN": [
+                                                            "+1SPIN"
+                                                        ],
+                                                        "IT": [
+                                                            "+1SPIN"
+                                                        ],
+                                                        "RU": [
+                                                            "+1SPIN"
+                                                        ],
+                                                        "FR": [
+                                                            "+1SPIN"
+                                                        ],
+                                                        "ZH": [
+                                                            "+1SPIN"
+                                                        ],
+                                                        "US": [
+                                                            "+1SPIN"
+                                                        ],
+                                                        "PT": [
+                                                            "+1SPIN"
+                                                        ]
+                                                    }
+                                                ]
                                             }
                                         ],
                                         "Layout": "flex",
@@ -498,17 +1194,89 @@
                                             {
                                                 "multipliers": "x5",
                                                 "value": "100.00",
-                                                "specialContent": null
+                                                "specialContent": [
+                                                    {
+                                                        "EN": [
+                                                            null
+                                                        ],
+                                                        "IT": [
+                                                            null
+                                                        ],
+                                                        "RU": [
+                                                            null
+                                                        ],
+                                                        "FR": [
+                                                            null
+                                                        ],
+                                                        "ZH": [
+                                                            null
+                                                        ],
+                                                        "US": [
+                                                            null
+                                                        ],
+                                                        "PT": [
+                                                            null
+                                                        ]
+                                                    }
+                                                ]
                                             },
                                             {
                                                 "multipliers": "x4",
                                                 "value": "10.00",
-                                                "specialContent": null
+                                                "specialContent": [
+                                                    {
+                                                        "EN": [
+                                                            null
+                                                        ],
+                                                        "IT": [
+                                                            null
+                                                        ],
+                                                        "RU": [
+                                                            null
+                                                        ],
+                                                        "FR": [
+                                                            null
+                                                        ],
+                                                        "ZH": [
+                                                            null
+                                                        ],
+                                                        "US": [
+                                                            null
+                                                        ],
+                                                        "PT": [
+                                                            null
+                                                        ]
+                                                    }
+                                                ]
                                             },
                                             {
                                                 "multipliers": "x3",
                                                 "value": "1.00",
-                                                "specialContent": null
+                                                "specialContent": [
+                                                    {
+                                                        "EN": [
+                                                            null
+                                                        ],
+                                                        "IT": [
+                                                            null
+                                                        ],
+                                                        "RU": [
+                                                            null
+                                                        ],
+                                                        "FR": [
+                                                            null
+                                                        ],
+                                                        "ZH": [
+                                                            null
+                                                        ],
+                                                        "US": [
+                                                            null
+                                                        ],
+                                                        "PT": [
+                                                            null
+                                                        ]
+                                                    }
+                                                ]
                                             }
                                         ],
                                         "direction": "row",
@@ -719,17 +1487,89 @@
                                             {
                                                 "multipliers": "x5",
                                                 "value": "100,00",
-                                                "specialContent": null
+                                                "specialContent": [
+                                                    {
+                                                        "EN": [
+                                                            null
+                                                        ],
+                                                        "IT": [
+                                                            null
+                                                        ],
+                                                        "RU": [
+                                                            null
+                                                        ],
+                                                        "FR": [
+                                                            null
+                                                        ],
+                                                        "ZH": [
+                                                            null
+                                                        ],
+                                                        "US": [
+                                                            null
+                                                        ],
+                                                        "PT": [
+                                                            null
+                                                        ]
+                                                    }
+                                                ]
                                             },
                                             {
                                                 "multipliers": "x4",
                                                 "value": "52,00",
-                                                "specialContent": null
+                                                "specialContent": [
+                                                    {
+                                                        "EN": [
+                                                            null
+                                                        ],
+                                                        "IT": [
+                                                            null
+                                                        ],
+                                                        "RU": [
+                                                            null
+                                                        ],
+                                                        "FR": [
+                                                            null
+                                                        ],
+                                                        "ZH": [
+                                                            null
+                                                        ],
+                                                        "US": [
+                                                            null
+                                                        ],
+                                                        "PT": [
+                                                            null
+                                                        ]
+                                                    }
+                                                ]
                                             },
                                             {
                                                 "multipliers": "x3",
                                                 "value": "2,00",
-                                                "specialContent": "+2SPIN"
+                                                "specialContent": [
+                                                    {
+                                                        "EN": [
+                                                            "+2SPIN"
+                                                        ],
+                                                        "IT": [
+                                                            "+2SPIN"
+                                                        ],
+                                                        "RU": [
+                                                            "+2SPIN"
+                                                        ],
+                                                        "FR": [
+                                                            "+2SPIN"
+                                                        ],
+                                                        "ZH": [
+                                                            "+2SPIN"
+                                                        ],
+                                                        "US": [
+                                                            "+2SPIN"
+                                                        ],
+                                                        "PT": [
+                                                            "+2SPIN"
+                                                        ]
+                                                    }
+                                                ]
                                             }
                                         ],
                                         "direction": "row",

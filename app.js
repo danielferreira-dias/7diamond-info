@@ -263,10 +263,10 @@ function createSymbolSection(section, subSection, subContainer) {
                         valueSpecialContentDiv.appendChild(valueText);
 
                         // Check if special content exists
-                        if (dataInfo.specialContent != null) {
+                        if (dataInfo.specialContent[0][currentLanguage] != null) {
                             const specialContentText = document.createElement("p");
                             specialContentText.classList.add("symbol-specialContent-text");
-                            specialContentText.innerText = dataInfo.specialContent;
+                            specialContentText.innerText = dataInfo.specialContent[0][currentLanguage];
 
                             // Apply CSS to control text overflow
                             // specialContentText.style.overflow = "hidden";
@@ -621,10 +621,10 @@ function createNewSections(mainSection, subSection, subContainer) {
                                 valueSpecialContentDiv.appendChild(valueText);
 
                                 // Check if special content exists
-                                if (dataInfo.specialContent != null) {
+                                if (dataInfo.specialContent[0][currentLanguage] != null) {
                                     const specialContentText = document.createElement("p");
                                     specialContentText.classList.add("symbol-specialContent-text");
-                                    specialContentText.innerText = dataInfo.specialContent;
+                                    specialContentText.innerText = dataInfo.specialContent[0][currentLanguage];
 
                                     // Apply CSS to control text overflow
                                     specialContentText.style.overflow = "hidden";
@@ -901,10 +901,10 @@ function createbuyBonusSection(mainSection, subSection, subContainer) {
                                 valueSpecialContentDiv.appendChild(valueText);
 
                                 // Check if special content exists
-                                if (dataInfo.specialContent != null) {
+                                if (dataInfo.specialContent[0][currentLanguage] != null) {
                                     const specialContentText = document.createElement("p");
                                     specialContentText.classList.add("symbol-specialContent-text");
-                                    specialContentText.innerText = dataInfo.specialContent;
+                                    specialContentText.innerText = dataInfo.specialContent[0][currentLanguage];
 
                                     // Apply CSS to control text overflow
                                     specialContentText.style.overflow = "hidden";
