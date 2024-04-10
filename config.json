@@ -1388,7 +1388,7 @@
                 "SubSection": [
                     {
                         "typeDisplay": "flex",
-                        "direction": "row",
+                        "direction": "column",
                         "justifyContent": "center",
                         "features": [
                             {
@@ -1984,14 +1984,21 @@
                                         "imageType": "big",
                                         "wrap": "",
                                         "url": [
-                                            "images/Settings/Buttons/CANCEL.png"
+                                            "images/Settings/Assets/ICON.png"
                                         ],
                                         "direction": "row",
                                         "valueType": "puntataMaxima",
                                         "Type": "text",
                                         "Text": "Puntata Maxima:",
                                         "value": "5,00"
-                                    },
+                                    }
+                                ]
+                            },
+                            {
+                                "typeDisplay": "flex",
+                                "direction": "column",
+                                "divMaxWith": "smallMaxWidth",
+                                "featureContent": [
                                     {
                                         "type": "plural_text",
                                         "textAlignment": "center",
@@ -2031,7 +2038,14 @@
                                         "Type": "text",
                                         "Text": "The Max win is ",
                                         "value": "20,000x"
-                                    },
+                                    }
+                                ]
+                            },
+                            {
+                                "typeDisplay": "flex",
+                                "direction": "row",
+                                "divMaxWith": "smallMaxWidth",
+                                "featureContent": [
                                     {
                                         "type": "divContent",
                                         "numberOfDivs": 4,
