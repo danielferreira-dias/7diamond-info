@@ -609,11 +609,17 @@ function createNewSections(mainSection, subSection, subContainer) {
                     case "text":
                     case "plural_text":
                         contentDiv.classList.add("content-div-class-flex-text");
-                        feature.content[currentLanguage].forEach((text) => {
+                        feature.content[currentLanguage].forEach((text, index) => {
                             const textParagraph = document.createElement("p");
                             textParagraph.textContent = text;
                             contentDiv.appendChild(textParagraph);
+
+                            if (index < feature.content[currentLanguage].length - 1) {
+                                contentDiv.appendChild(document.createElement("br"));
+                            }
                         });
+
+
                         break;
 
                     case "divContent":
@@ -753,8 +759,11 @@ function createbuyBonusSection(mainSection, subSection, subContainer) {
                             const textParagraph = document.createElement("p");
                             textParagraph.textContent = contentDisplay.featureContent[j].content[currentLanguage][i];
                             contentDiv.appendChild(textParagraph);
-                            // Add a line break after each paragraph
-
+                            // Add \n\n after each paragraph except the last one
+                            if (i < contentDisplay.featureContent[j].content[currentLanguage].length - 1) {
+                                singularDiv.appendChild(document.createElement("br"));
+                                singularDiv.appendChild(document.createElement("br"));
+                            }
                         }
                     } else if (contentDisplay.featureContent[j].type === "img_text") {
                         contentDiv.classList.add("content-div-class-flex-img");

@@ -1137,7 +1137,7 @@
                                 "featureContent": [
                                     {
                                         "type": "img",
-                                        "divMaxWith": "bigMaxWidth",
+                                        "divMaxWith": "smallMaxWidth",
                                         "imageType": "big",
                                         "wrap": "wrap",
                                         "url": [
@@ -1183,7 +1183,7 @@
                                     {
                                         "type": "img_text",
                                         "imageType": "big",
-                                        "divMaxWith": "bigMaxWidth",
+                                        "divMaxWith": "smallMaxWidth",
                                         "wrap": "wrap",
                                         "url": [
                                             "images/Settings/Symbol/10.png"
