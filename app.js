@@ -511,6 +511,7 @@ function createNewSections(mainSection, subSection, subContainer) {
                     case "img":
                     case "img_text":
                         contentDiv.classList.add("content-div-class-flex-img");
+                        contentDiv.style.minWidth = "200px"
                         contentDiv.style.flexWrap = feature.wrap;
 
                         feature.url.forEach((url) => {
@@ -609,6 +610,7 @@ function createNewSections(mainSection, subSection, subContainer) {
                     case "text":
                     case "plural_text":
                         contentDiv.classList.add("content-div-class-flex-text");
+                        contentDiv.style.minWidth = "200px"
                         feature.content[currentLanguage].forEach((text, index) => {
                             const textParagraph = document.createElement("p");
                             textParagraph.textContent = text;
