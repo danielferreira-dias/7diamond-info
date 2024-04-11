@@ -49,7 +49,6 @@ function createHTMLFromJSON() {
             // Create Sections
             const main = document.querySelector(".symbol-section");
 
-            console.log(data.Info)
 
             data.Info.Section.forEach((section) => {
 
@@ -717,6 +716,7 @@ function createbuyBonusSection(mainSection, subSection, subContainer) {
         if (subSection.features && Array.isArray(subSection.features)) {
             subSection.features.forEach((contentDisplay) => {
                 const singularDiv = document.createElement("div");
+                singularDiv.style.flexDirection = contentDisplay.direction;
                 singularDiv.style.display = contentDisplay.typeDisplay;
                 if (contentDisplay.typeDisplay === "flex") {
                     singularDiv.style.maxWidth = "100%"
@@ -728,7 +728,7 @@ function createbuyBonusSection(mainSection, subSection, subContainer) {
                 }
                 for (let j = 0; j < contentDisplay.featureContent.length; j++) {
                     contentDiv = document.createElement("div");
-                    singularDiv.style.flexDirection = contentDisplay.direction;
+                    contentDiv.style.flexDirection = contentDisplay.direction;
 
                     if (contentDisplay.featureContent[j].type === "img") {
                         contentDiv.classList.add("content-div-class-flex-img");
@@ -763,8 +763,8 @@ function createbuyBonusSection(mainSection, subSection, subContainer) {
                             contentDiv.appendChild(textParagraph);
                             // Add \n\n after each paragraph except the last one
                             if (i < contentDisplay.featureContent[j].content[currentLanguage].length - 1) {
-                                singularDiv.appendChild(document.createElement("br"));
-                                singularDiv.appendChild(document.createElement("br"));
+                                contentDiv.appendChild(document.createElement("br"));
+                                contentDiv.appendChild(document.createElement("br"));
                             }
                         }
                     } else if (contentDisplay.featureContent[j].type === "img_text") {
@@ -879,6 +879,9 @@ function createbuyBonusSection(mainSection, subSection, subContainer) {
                         const numberOfDivsContent = contentDisplay.featureContent[j].numberOfDivs || 1;
 
                         for (let i = 0; i < numberOfDivsContent; i++) {
+                            const mainDiv = document.createElement("div");
+                            mainDiv.style.display = "flex"
+                            mainDiv.style.flexDirection = contentDisplay.featureContent[j].divContentBorder[i].direction
                             // Create a new div element for each iteration
                             const borderDiv = document.createElement("div");
 
@@ -895,9 +898,6 @@ function createbuyBonusSection(mainSection, subSection, subContainer) {
                             borderDiv.style.justifyContent = "center"; // Align horizontally
                             borderDiv.style.alignItems = "center"; // Align vertically
 
-                            // Append the new div to the main contentDiv
-                            contentDiv.appendChild(borderDiv);
-
                             // Access the text array for the current border div
                             const textArray = contentDisplay.featureContent[j].divContentBorder[i];
 
@@ -905,11 +905,22 @@ function createbuyBonusSection(mainSection, subSection, subContainer) {
                             const borderText = document.createElement("p");
                             borderText.style.fontSize = "1.0rem";
                             borderText.style.textAlign = "center";
-
-                            borderText.textContent = textArray.contentInside;
+                            borderText.textContent = textArray.contentInside[currentLanguage][0];
 
                             // Append the text to the current borderDiv
                             borderDiv.appendChild(borderText);
+
+                            // Inside The Border Divs, Apply Text
+                            const borderTextRTP = document.createElement("p");
+                            borderTextRTP.style.fontSize = "1.0rem";
+                            borderTextRTP.style.textAlign = "center";
+                            borderTextRTP.textContent = textArray.content;
+
+                            // Append the new div to the main contentDiv
+                            mainDiv.appendChild(borderDiv)
+                            mainDiv.appendChild(borderTextRTP)
+                            contentDiv.appendChild(mainDiv)
+
                         }
                     }
                     contentDiv.style.textAlign = contentDisplay.featureContent[j].textAlignment
