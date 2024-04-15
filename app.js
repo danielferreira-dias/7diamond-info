@@ -483,6 +483,7 @@ function createRuleSection(mainSection, subSection, subContainer) {
 
 
 
+// create new sections
 function createNewSections(mainSection, subSection, subContainer) {
     subContainer.style.display = subSection.typeDisplay;
     subContainer.style.flexDirection = subSection.direction;
@@ -499,6 +500,7 @@ function createNewSections(mainSection, subSection, subContainer) {
 
             if (contentDisplay.typeDisplay === "flex") {
                 singularDiv.style.maxWidth = "100%";
+                singularDiv.style.width = "100%";
                 singularDiv.classList.add(contentDisplay.direction === "row" ? "singular-div-row" : "singular-div-column");
             }
 
@@ -510,13 +512,15 @@ function createNewSections(mainSection, subSection, subContainer) {
                     case "img":
                     case "img_text":
                         contentDiv.classList.add("content-div-class-flex-img");
-                        contentDiv.style.minWidth = "200px"
                         contentDiv.style.flexWrap = feature.wrap;
+                        contentDiv.style.flex = 1
+                        contentDiv.style.gap = "40px"
+                        contentDiv.style.width = "100%"
 
                         feature.url.forEach((url) => {
                             const contentDivImage = document.createElement("img");
+
                             contentDivImage.src = url;
-                            contentDivImage.style.width = feature.url.length > 1 ? `calc(100% / ${feature.url.length})` : "auto";
                             contentDivImage.classList.add(feature.divMaxWith);
                             contentDiv.appendChild(contentDivImage);
                         });
@@ -578,16 +582,18 @@ function createNewSections(mainSection, subSection, subContainer) {
 
                                 // Check if special content exists
                                 if (dataInfo.specialContent[0][currentLanguage] != null) {
-                                    const specialContentText = document.createElement("p");
-                                    specialContentText.classList.add("symbol-specialContent-text");
-                                    specialContentText.innerText = dataInfo.specialContent[0][currentLanguage];
+                                    const specialContent = dataInfo.specialContent[0][currentLanguage];
+                                    const specialContentDiv = document.createElement("div");
 
-                                    // Apply CSS to control text overflow
-                                    specialContentText.style.overflow = "hidden";
-                                    specialContentText.style.textOverflow = "ellipsis"; // or any other desired style
+                                    // Iterate over each text item and create a <p> element for it
+                                    specialContent.forEach(text => {
+                                        const paragraph = document.createElement("p");
+                                        paragraph.innerText = text;
+                                        specialContentDiv.appendChild(paragraph);
+                                    });
 
-                                    // Append special content text to the div
-                                    valueSpecialContentDiv.appendChild(specialContentText);
+                                    // Append the <div> containing the <p> elements to the parent div
+                                    valueSpecialContentDiv.appendChild(specialContentDiv);
                                 }
 
                                 // Append the div containing both value and special content to the column
@@ -619,8 +625,6 @@ function createNewSections(mainSection, subSection, subContainer) {
                                 contentDiv.appendChild(document.createElement("br"));
                             }
                         });
-
-
                         break;
 
                     case "divContent":
@@ -632,7 +636,7 @@ function createNewSections(mainSection, subSection, subContainer) {
                             const textArray = feature.divContentBorder[i];
                             const borderText = document.createElement("p");
 
-                            borderText.textContent = textArray.contentInside;
+                            borderText.textContent = textArray.contentInside[currentLanguage][0];;
                             borderDiv.appendChild(borderText);
                             contentDiv.appendChild(borderDiv);
                         }
@@ -732,20 +736,17 @@ function createbuyBonusSection(mainSection, subSection, subContainer) {
 
                     if (contentDisplay.featureContent[j].type === "img") {
                         contentDiv.classList.add("content-div-class-flex-img");
+                        contentDiv.style.width = "100%"
                         contentDiv.style.flexWrap = contentDisplay.featureContent[j].wrap;
 
                         for (let i = 0; i < contentDisplay.featureContent[j].url.length; i++) {
                             const contentDivImage = document.createElement("img");
                             contentDivImage.src = contentDisplay.featureContent[j].url[i];
-                            let imageCount = contentDisplay.featureContent[j].url.length;
-                            if (imageCount > 1) {
-                                let imageWidth = `calc(100% / ${imageCount})`;
-                                contentDivImage.style.width = imageWidth;
-                            }
-                            if (contentDisplay.featureContent[j].divMaxWith == "bigMaxWidth") {
-                                contentDivImage.classList.add('bigMaxWidth')
-                            } else if (contentDisplay.featureContent[j].divMaxWith == "smallMaxWidth") {
-                                contentDivImage.classList.add('smallMaxWidth')
+                            contentDivImage.style.flex = 1
+                            if (contentDisplay.featureContent[j].divMaxWith == "symbolWidth") {
+                                contentDivImage.classList.add('symbolWidth')
+                            } else if (contentDisplay.featureContent[j].divMaxWith == "screenWidth") {
+                                contentDivImage.classList.add('screenWidth')
                             }
                             contentDiv.appendChild(contentDivImage);
                         }
@@ -769,21 +770,19 @@ function createbuyBonusSection(mainSection, subSection, subContainer) {
                         }
                     } else if (contentDisplay.featureContent[j].type === "img_text") {
                         contentDiv.classList.add("content-div-class-flex-img");
+                        contentDiv.style.width = "100%"
                         contentDiv.style.flexWrap = contentDisplay.featureContent[j].wrap;
 
                         for (let i = 0; i < contentDisplay.featureContent[j].url.length; i++) {
                             const contentDivImage = document.createElement("img");
+                            contentDivImage.style.flex = 1
                             contentDivImage.src = contentDisplay.featureContent[j].url[i];
 
-                            let imageCount = contentDisplay.featureContent[j].url.length;
-                            if (imageCount > 1) {
-                                let imageWidth = `calc(100% / ${imageCount})`;
-                                contentDivImage.style.width = imageWidth;
-                            }
-                            if (contentDisplay.featureContent[j].divMaxWith == "bigMaxWidth") {
-                                contentDivImage.classList.add('bigMaxWidth')
-                            } else if (contentDisplay.featureContent[j].divMaxWith == "smallMaxWidth") {
-                                contentDivImage.classList.add('smallMaxWidth')
+
+                            if (contentDisplay.featureContent[j].divMaxWith == "symbolWidth") {
+                                contentDivImage.classList.add('symbolWidth')
+                            } else if (contentDisplay.featureContent[j].divMaxWith == "screenWidth") {
+                                contentDivImage.classList.add('screenWidth')
                             }
                             contentDiv.appendChild(contentDivImage);
                         }

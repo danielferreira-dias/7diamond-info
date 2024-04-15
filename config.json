@@ -1137,7 +1137,7 @@
                                 "featureContent": [
                                     {
                                         "type": "img",
-                                        "divMaxWith": "smallMaxWidth",
+                                        "divMaxWith": "symbolWidth",
                                         "imageType": "big",
                                         "wrap": "wrap",
                                         "url": [
@@ -1183,7 +1183,7 @@
                                     {
                                         "type": "img_text",
                                         "imageType": "big",
-                                        "divMaxWith": "smallMaxWidth",
+                                        "divMaxWith": "symbolWidth",
                                         "wrap": "wrap",
                                         "url": [
                                             "images/Settings/Symbol/10.png"
@@ -1476,7 +1476,7 @@
                                     {
                                         "type": "img_text",
                                         "imageType": "big",
-                                        "divMaxWith": "smallMaxWidth",
+                                        "divMaxWith": "symbolWidth",
                                         "wrap": "wrap",
                                         "url": [
                                             "images/Settings/Symbol/9.png"
@@ -1625,7 +1625,7 @@
                                 "featureContent": [
                                     {
                                         "type": "img",
-                                        "divMaxWith": "smallMaxWidth",
+                                        "divMaxWith": "symbolWidth",
                                         "imageType": "big",
                                         "wrap": "",
                                         "url": [
@@ -1976,11 +1976,11 @@
                             {
                                 "typeDisplay": "flex",
                                 "direction": "column",
-                                "divMaxWith": "smallMaxWidth",
+                                "divMaxWith": "symbolWidth",
                                 "featureContent": [
                                     {
                                         "type": "img",
-                                        "divMaxWith": "smallMaxWidth",
+                                        "divMaxWith": "symbolWidth",
                                         "imageType": "big",
                                         "wrap": "",
                                         "url": [
@@ -1997,7 +1997,7 @@
                             {
                                 "typeDisplay": "flex",
                                 "direction": "column",
-                                "divMaxWith": "smallMaxWidth",
+                                "divMaxWith": "symbolWidth",
                                 "featureContent": [
                                     {
                                         "type": "plural_text",
@@ -2044,7 +2044,7 @@
                             {
                                 "typeDisplay": "flex",
                                 "direction": "row",
-                                "divMaxWith": "smallMaxWidth",
+                                "divMaxWith": "symbolWidth",
                                 "featureContent": [
                                     {
                                         "type": "divContent",
