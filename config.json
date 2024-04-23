@@ -1137,7 +1137,7 @@
                                 "featureContent": [
                                     {
                                         "type": "img",
-                                        "divMaxWith": "symbolWidth",
+                                        "divMaxWidth": "symbolWidth",
                                         "imageType": "big",
                                         "wrap": "wrap",
                                         "url": [
@@ -1183,7 +1183,7 @@
                                     {
                                         "type": "img_text",
                                         "imageType": "big",
-                                        "divMaxWith": "symbolWidth",
+                                        "divMaxWidth": "symbolWidth",
                                         "wrap": "wrap",
                                         "url": [
                                             "images/Settings/Symbol/10.png"
@@ -1280,7 +1280,7 @@
                                             }
                                         ],
                                         "direction": "row",
-                                        "contentDirection": "row"
+                                        "contentDirection": "column"
                                     },
                                     {
                                         "type": "text",
@@ -1476,7 +1476,7 @@
                                     {
                                         "type": "img_text",
                                         "imageType": "big",
-                                        "divMaxWith": "symbolWidth",
+                                        "divMaxWidth": "symbolWidth",
                                         "wrap": "wrap",
                                         "url": [
                                             "images/Settings/Symbol/9.png"
@@ -1573,7 +1573,7 @@
                                             }
                                         ],
                                         "direction": "row",
-                                        "contentDirection": "row"
+                                        "contentDirection": "column"
                                     }
                                 ]
                             },
@@ -1608,7 +1608,7 @@
                                             ]
                                         },
                                         "direction": "column",
-                                        "customFormat": ""
+                                        "customFormat": "column"
                                     }
                                 ]
                             }
@@ -1625,7 +1625,7 @@
                                 "featureContent": [
                                     {
                                         "type": "img",
-                                        "divMaxWith": "symbolWidth",
+                                        "divMaxWidth": "symbolWidth",
                                         "imageType": "big",
                                         "wrap": "",
                                         "url": [
@@ -1976,11 +1976,11 @@
                             {
                                 "typeDisplay": "flex",
                                 "direction": "column",
-                                "divMaxWith": "symbolWidth",
+                                "divMaxWidth": "symbolWidth",
                                 "featureContent": [
                                     {
                                         "type": "img",
-                                        "divMaxWith": "symbolWidth",
+                                        "divMaxWidth": "symbolWidth",
                                         "imageType": "big",
                                         "wrap": "",
                                         "url": [
@@ -1997,7 +1997,7 @@
                             {
                                 "typeDisplay": "flex",
                                 "direction": "column",
-                                "divMaxWith": "symbolWidth",
+                                "divMaxWidth": "symbolWidth",
                                 "featureContent": [
                                     {
                                         "type": "plural_text",
@@ -2044,7 +2044,7 @@
                             {
                                 "typeDisplay": "flex",
                                 "direction": "row",
-                                "divMaxWith": "symbolWidth",
+                                "divMaxWidth": "symbolWidth",
                                 "featureContent": [
                                     {
                                         "type": "divContent",
@@ -2061,13 +2061,13 @@
                                                         "SUPER FREE SPINS 400x PUNTATA"
                                                     ],
                                                     "RU": [
-                                                        "SUPER FREE SPINS 400x СТАВКА "
+                                                        "SUPER FREE SPINS 400x СТНВКН "
                                                     ],
                                                     "FR": [
                                                         "SUPER FREE SPINS 400x MISE"
                                                     ],
                                                     "ZH": [
-                                                        "SUPER FREE SPINS 400x 倍投注"
+                                                        "SUPER FREE SPINS 400x 倝投注"
                                                     ],
                                                     "US": [
                                                         "SUPER FREE SPINS 400x BET"
@@ -2088,13 +2088,13 @@
                                                         "FREE SPINS 100x PUNTATA"
                                                     ],
                                                     "RU": [
-                                                        "FREE SPINS 100x СТАВКА "
+                                                        "FREE SPINS 100x СТНВКН "
                                                     ],
                                                     "FR": [
                                                         "FREE SPINS 100x MISE"
                                                     ],
                                                     "ZH": [
-                                                        "FREE SPINS 100x 倍投注"
+                                                        "FREE SPINS 100x 倝投注"
                                                     ],
                                                     "US": [
                                                         "FREE SPINS 100x BET"
@@ -2115,13 +2115,13 @@
                                                         "FEATURE 10x PUNTATA"
                                                     ],
                                                     "RU": [
-                                                        "FEATURE 10x СТАВКА "
+                                                        "FEATURE 10x СТНВКН "
                                                     ],
                                                     "FR": [
                                                         "FEATURE 10x MISE"
                                                     ],
                                                     "ZH": [
-                                                        "FEATURE 10x 倍投注"
+                                                        "FEATURE 10x 倝投注"
                                                     ],
                                                     "US": [
                                                         "FEATURE 10x BET"
@@ -2142,13 +2142,13 @@
                                                         "SUPER FEATURE 15x PUNTATA"
                                                     ],
                                                     "RU": [
-                                                        "SUPER FEATURE 15x СТАВКА "
+                                                        "SUPER FEATURE 15x СТНВКН "
                                                     ],
                                                     "FR": [
                                                         "SUPER FEATURE 15x MISE"
                                                     ],
                                                     "ZH": [
-                                                        "SUPER FEATURE 15x 倍投注"
+                                                        "SUPER FEATURE 15x 倝投注"
                                                     ],
                                                     "US": [
                                                         "SUPER FEATURE 15x BET"
@@ -2169,13 +2169,13 @@
                                                         "SUPER FEATURE 15x PUNTATA"
                                                     ],
                                                     "RU": [
-                                                        "SUPER FEATURE 15x СТАВКА "
+                                                        "SUPER FEATURE 15x СТНВКН "
                                                     ],
                                                     "FR": [
                                                         "SUPER FEATURE 15x MISE"
                                                     ],
                                                     "ZH": [
-                                                        "SUPER FEATURE 15x 倍投注"
+                                                        "SUPER FEATURE 15x 倝投注"
                                                     ],
                                                     "US": [
                                                         "SUPER FEATURE 15x BET"
