@@ -1625,13 +1625,11 @@
                                 "featureContent": [
                                     {
                                         "type": "img",
-                                        "divMaxWidth": "symbolWidth",
+                                        "divMaxWidth": "arrowWidth",
                                         "imageType": "big",
                                         "wrap": "",
                                         "url": [
-                                            "images/Settings/Assets/START BUTTON.png",
-                                            "images/Settings/Assets/ARROW.png",
-                                            "images/Settings/Assets/SPINS BUTTON_IT.png"
+                                            "images/Settings/Assets/START BUTTON.png"
                                         ],
                                         "direction": "row"
                                     }

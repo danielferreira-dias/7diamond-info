@@ -403,6 +403,10 @@
   .screenWidth {
     width: 300px;
   }
+
+  .arrowWidth{
+    width: 300px;
+  }
   
   /* Extra small devices (phones, 600px and down) */
   @media (max-width: 490px) {
@@ -418,12 +422,18 @@
     .screenWidth {
       width: 500px;
     }
+    .arrowWidth{
+        width: 400px;
+      }
   }
   
   @media only screen and (min-width: 1200px) {
     .symbolWidth {
       width: 200px;
     }
+    .arrowWidth{
+        width: 400px;
+      }
   }
   
   @media only screen and (min-width: 1600px) {
@@ -433,5 +443,8 @@
     .screenWidth {
       width: 500px;
     }
+    .arrowWidth{
+        width: 500px;
+      }
   }
   
